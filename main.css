@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.kartochki{
+    width: 1200px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border: 2px solid blue;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+}
